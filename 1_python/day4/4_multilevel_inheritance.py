@@ -24,7 +24,7 @@ class Manager(Employee):
         self.department = department
 
     def display_manager(self):
-        name_age_eid = super().display_person()
+        name_age_eid = super().display_employee()
         return f"{name_age_eid}, Department: {self.department}"
 
 
